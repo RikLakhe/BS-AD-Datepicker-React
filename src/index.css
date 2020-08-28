@@ -1,0 +1,88 @@
+#dynamic-datepicker {
+  position: absolute;
+  top: 60px;
+}
+
+.date-wrapper {
+  position: absolute;
+  background-color: aliceblue !important;
+  border-radius: 5px;
+  width: 300px;
+  z-index: 9999;
+  padding: 5px;
+}
+
+.date-wrapper .date-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #b3b3b3;
+  background-color: #b3b3b3;
+  height: 35px;
+}
+
+.date-wrapper .date-header select {
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.date-header-icon {
+  enable-background: new 0 0 490.8 490.8;
+  /*height: 10px;*/
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.date-body table {
+  width: 100%;
+  border: 1px solid #b3b3b3;
+}
+
+.date-body table tr th,
+.date-body table tr td {
+  text-align: center;
+  font-size: 10px;
+  max-width: 10px;
+  padding: 5px 7px;
+}
+
+.date-body table tr th {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.date-body table tr .date-selectable {
+  cursor: pointer;
+  border: 1px solid #b3b3b3;
+}
+
+.date-selected {
+  background-color: #4bcf99 !important;
+  border-radius: 100px;
+  font-weight: bolder;
+}
+
+.date-today {
+  background-color: #e9da83;
+  color: #000000;
+}
+
+.date-disabled {
+  cursor: not-allowed !important;
+  background-color: #eaeaea;
+  color: #818181;
+}
+
+.datepicker-input-div {
+  position: relative;
+  width: 100%;
+}
+
+.datepicker-input-postfix {
+  position: absolute;
+  top: 7px;
+  left: 95px;
+  color: #4bcf99;
+  font-size: 16px;
+}
