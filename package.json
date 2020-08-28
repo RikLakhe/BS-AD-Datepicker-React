@@ -1,6 +1,6 @@
 {
   "name": "bs-ad-datepicker-react",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Bs Ad datepicker calender component for REACT",
   "main": "index.js",
   "scripts": {
