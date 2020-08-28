@@ -217,7 +217,7 @@ const useDatepicker = (props) => {
   }, [selectedYear, selectedMonth, selectedDate]);
 
   return (
-    <>
+    <div>
       <div className={'datepicker-input-div'}>
         <input
           value={displayDate}
@@ -383,7 +383,7 @@ const useDatepicker = (props) => {
           </div>
         </div>
       )}
-    </>
+    </div>
   );
 };
 
