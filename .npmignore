@@ -1,3 +1,4 @@
 demo
 .babelrc
 webpack.config.js
+dist
